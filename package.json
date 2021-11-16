@@ -1,6 +1,6 @@
 {
   "name": "@letea/alfred-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,6 @@
   "devDependencies": {
     "@letea/prettier-config": "0.0.7"
   },
-  "prettier": "@letea/prettier-config"
+  "prettier": "@letea/prettier-config",
+  "type": "module"
 }
