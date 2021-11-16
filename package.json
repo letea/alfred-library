@@ -1,0 +1,29 @@
+{
+  "name": "@letea/alfred-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamLeTea/alfred-library.git"
+  },
+  "keywords": [
+    "alfred"
+  ],
+  "author": "LeTea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IamLeTea/alfred-library/issues"
+  },
+  "homepage": "https://github.com/IamLeTea/alfred-library#readme",
+  "dependencies": {
+    "plist": "^3.0.4"
+  },
+  "devDependencies": {
+    "@letea/prettier-config": "0.0.7"
+  },
+  "prettier": "@letea/prettier-config"
+}
