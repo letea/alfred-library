@@ -1,24 +1,23 @@
 // local modules
-import { getInfoList } from "../getInfoList/index.js";
-import { setInfoList } from "../setInfoList/index.js";
+import { getListFilter } from "../getListFilter/index.js";
+import { setListFilter } from "../setListFilter/index.js";
 
-const setListFilterItems = ({ listFilterKeyword = "", items = [] } = {}) => {
-  if (!listFilterKeyword) {
-    throw `setListFilterItems: No listFilterKeyword.(${listFilterKeyword})`;
+const setListFilterItems = ({ uid = "", items = [] } = {}) => {
+  if (!uid) {
+    throw `setListFilterItems: No uid.(${uid})`;
   }
 
-  // NOTE: Read infoList file
-  const infoList = getInfoList();
+  // NOTE: Get ListFilter
+  const listFilter = getListFilter({
+    uid
+  });
 
-  // NOTE: Set items to infoList
-  const listFilterIndex = infoList?.objects?.findIndex(
-    (item) => item?.config?.items && item?.config?.keyword === listFilterKeyword
-  );
-  infoList.objects[listFilterIndex].config.items = JSON.stringify(items);
+  listFilter.config.items = JSON.stringify(items);
 
   // NOTE: Write infoList to file.
-  setInfoList({
-    infoList
+  setListFilter({
+    uid,
+    listFilter
   });
 };
 

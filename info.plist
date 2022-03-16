@@ -19,6 +19,35 @@
       <dict>
         <key>config</key>
         <dict>
+          <key>argumenttrimmode</key>
+          <integer>0</integer>
+          <key>argumenttype</key>
+          <integer>1</integer>
+          <key>fixedorder</key>
+          <true/>
+          <key>items</key>
+          <string>[{"title":"title 1","arg":"arg 1","imagefile":"imagefile1.png"},{"title":"title 2","arg":"arg 2","imagefile":"imagefile2.png"},{"title":"title 3","arg":"arg 3","imagefile":"imagefile3.png"}]</string>
+          <key>keyword</key>
+          <string>website</string>
+          <key>runningsubtext</key>
+          <string/>
+          <key>subtext</key>
+          <string/>
+          <key>title</key>
+          <string/>
+          <key>withspace</key>
+          <true/>
+        </dict>
+        <key>type</key>
+        <string>alfred.workflow.input.listfilter</string>
+        <key>uid</key>
+        <string>24D19E8A-FC05-4F84-A138-334B2924CC16</string>
+        <key>version</key>
+        <integer>1</integer>
+      </dict>
+      <dict>
+        <key>config</key>
+        <dict>
           <key>json</key>
           <string>{"alfredworkflow":{"arg":"{query}","config":{},"variables":{"result":"Hello World"}}}</string>
         </dict>
