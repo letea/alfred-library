@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>bundleid</key>
+    <string>alfred.test</string>
+    <key>connections</key>
+    <dict/>
+    <key>createdby</key>
+    <string>letea</string>
+    <key>description</key>
+    <string>Here is a workflow for developing alfred-library.</string>
+    <key>disabled</key>
+    <false/>
+    <key>name</key>
+    <string>Alfred Test</string>
+    <key>objects</key>
+    <array>
+      <dict>
+        <key>config</key>
+        <dict>
+          <key>json</key>
+          <string>{"alfredworkflow":{"arg":"{query}","config":{},"variables":{"result":"Hello World"}}}</string>
+        </dict>
+        <key>type</key>
+        <string>alfred.workflow.utility.json</string>
+        <key>uid</key>
+        <string>2EFED103-D991-420B-B1D7-FACD66F65D1A</string>
+        <key>version</key>
+        <integer>1</integer>
+      </dict>
+    </array>
+    <key>readme</key>
+    <string/>
+    <key>uidata</key>
+    <dict>
+      <key>2EFED103-D991-420B-B1D7-FACD66F65D1A</key>
+      <dict>
+        <key>xpos</key>
+        <integer>305</integer>
+        <key>ypos</key>
+        <integer>285</integer>
+      </dict>
+    </dict>
+    <key>webaddress</key>
+    <string/>
+  </dict>
+</plist>

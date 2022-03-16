@@ -11,7 +11,9 @@
     "url": "git+https://github.com/IamLeTea/alfred-library.git"
   },
   "keywords": [
-    "alfred"
+    "alfred",
+    "nodejs",
+    "workflow"
   ],
   "author": "LeTea",
   "license": "ISC",
@@ -26,5 +28,8 @@
     "@letea/prettier-config": "0.0.7"
   },
   "prettier": "@letea/prettier-config",
-  "type": "module"
+  "type": "module",
+  "imports": {
+    "#letea/alfred": "./src/index.js"
+  }
 }
