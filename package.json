@@ -1,6 +1,6 @@
 {
-  "name": "@letea/alfred-library",
-  "version": "1.0.1",
+  "name": "@letea/alfred",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -29,6 +29,10 @@
   },
   "prettier": "@letea/prettier-config",
   "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./*": "./src/*/index.js"
+  },
   "imports": {
     "#letea/alfred": "./src/index.js"
   }
