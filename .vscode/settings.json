@@ -1,0 +1,67 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "todo-tree.general.tags": [
+    "TODO",
+    "TODO_JEST",
+    "FIX",
+    "BUG",
+    "API",
+    "MOCK",
+    "NOTE",
+    "HARD_CODE",
+    "UNUSED"
+  ],
+  "todo-tree.highlights.defaultHighlight": {
+    "background": "#999",
+    "foreground": "#000",
+    "type": "whole-line"
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "background": "#999",
+      "icon": "check-circle-fill",
+      "iconColor": "#999"
+    },
+    "TODO_JEST": {
+      "background": "#999",
+      "icon": "check-circle-fill",
+      "iconColor": "#999"
+    },
+    "FIX": {
+      "background": "#f44336",
+      "icon": "tools",
+      "iconColor": "#f44336"
+    },
+    "BUG": {
+      "background": "#f44336",
+      "iconColor": "#f44336"
+    },
+    "API": {
+      "background": "#2196f3",
+      "icon": "globe",
+      "iconColor": "#2196f3"
+    },
+    "MOCK": {
+      "background": "#2196f3",
+      "icon": "pencil",
+      "iconColor": "#2196f3"
+    },
+    "NOTE": {
+      "background": "#009688",
+      "icon": "bookmark",
+      "iconColor": "#009688"
+    },
+    "HARD_CODE": {
+      "background": "#ffc107",
+      "icon": "hubot",
+      "iconColor": "#ffc107"
+    },
+    "UNUSED": {
+      "background": "#916BBF",
+      "icon": "unverified",
+      "iconColor": "#916BBF"
+    }
+  },
+  "todo-tree.filtering.excludeGlobs": ["**/node_modules", "**/*.md"]
+}

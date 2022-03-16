@@ -1,0 +1,26 @@
+{
+	"Node Modules 註解區域": {
+		"scope": "javascript,typescript",
+		"prefix": "// node modules",
+		"body": [
+			"// node modules"
+		],
+		"description": ""
+	},
+	"Local Modules 註解區域": {
+		"scope": "javascript,typescript",
+		"prefix": "// local modules",
+		"body": [
+			"// local modules"
+		],
+		"description": ""
+	},
+	"Local Files 註解區域": {
+		"scope": "javascript,typescript",
+		"prefix": "// local files",
+		"body": [
+			"// local files"
+		],
+		"description": ""
+	}
+}

@@ -1,0 +1,42 @@
+{
+  "待辦事項的註解": {
+    "scope": "javascript,typescript",
+    "prefix": "// TODO:",
+    "body": ["// TODO:"]
+  },
+  "Bug 的註解": {
+    "scope": "javascript,typescript",
+    "prefix": "// BUG:",
+    "body": ["// BUG:"]
+  },
+  "待修正的註解": {
+    "scope": "javascript,typescript",
+    "prefix": "// FIX:",
+    "body": ["// FIX:"]
+  },
+  "前端寫死的註解": {
+    "scope": "javascript,typescript",
+    "prefix": "// HARD_CODE:",
+    "body": ["// HARD_CODE:"]
+  },
+  "注意事項的註解": {
+    "scope": "javascript,typescript",
+    "prefix": "// NOTE:",
+    "body": ["// NOTE:"]
+  },
+  "API 的註解": {
+    "scope": "javascript,typescript",
+    "prefix": "// API:",
+    "body": ["// API:"]
+  },
+  "Mock Data 的註解": {
+    "scope": "javascript,typescript",
+    "prefix": "// MOCK:",
+    "body": ["// MOCK:"]
+  },
+  "沒用到的註解": {
+    "scope": "javascript,typescript",
+    "prefix": "// UNUSED:",
+    "body": ["// UNUSED:"]
+  }
+}
