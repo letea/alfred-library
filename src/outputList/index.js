@@ -1,4 +1,4 @@
-import { output } from "../output";
+import { output } from "../output/index.js";
 
 const outputList = ({ items = {} } = {}) => {
   output(
